@@ -1,6 +1,8 @@
 <template>
   <Navbar />
+  <div class="w-11/12 lg:container mx-auto my-5">
   <router-view/>
+  </div>
 </template>
 
 <script>
@@ -17,5 +19,5 @@ export default {
   },
 }
 </script>
-<style>
+<style lang="postcss">
 </style>
