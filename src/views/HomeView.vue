@@ -39,7 +39,6 @@
 <script>
 import { computed, ref } from 'vue'
 import { useStore } from 'vuex'
-import { UsersService } from '@/services/UsersService';
 
 export default {
   name: 'HomeView',
