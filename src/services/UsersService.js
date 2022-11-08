@@ -8,6 +8,7 @@ export class UsersService {
             "username": "Bret",
             "email": "Sincere@april.biz",
             "phone": "1-770-736-8031 x56442",
+            "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quam consectetur, ut sed cupiditate iusto!",
             "image": require("@/assets/images/img1.png")
         },
         {
@@ -16,6 +17,7 @@ export class UsersService {
             "username": "Antonette",
             "email": "Shanna@melissa.tv",
             "phone": "010-692-6593 x09125",
+            "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quam consectetur, ut sed cupiditate iusto!",
             "image": require("@/assets/images/img2.png")
         },
         {
@@ -24,6 +26,7 @@ export class UsersService {
             "username": "Samantha",
             "email": "Nathan@yesenia.net",
             "phone": "1-463-123-4447",
+            "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quam consectetur, ut sed cupiditate iusto!",
             "image": require("@/assets/images/img3.png")
         },
         {
@@ -32,6 +35,7 @@ export class UsersService {
             "username": "Karianne",
             "email": "Julianne.OConner@kory.org",
             "phone": "493-170-9623 x156",
+            "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quam consectetur, ut sed cupiditate iusto!",
             "image": require("@/assets/images/img4.png")
         },
         {
@@ -40,6 +44,7 @@ export class UsersService {
             "username": "Kamren",
             "email": "Lucio_Hettinger@annie.ca",
             "phone": "(254)954-1289",
+            "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quam consectetur, ut sed cupiditate iusto!",
             "image": require("@/assets/images/img5.png")
         },
         {
@@ -48,6 +53,7 @@ export class UsersService {
             "username": "Leopoldo_Corkery",
             "email": "Karley_Dach@jasper.info",
             "phone": "1-477-935-8478 x6430",
+            "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quam consectetur, ut sed cupiditate iusto!",
             "image": require("@/assets/images/img1.png")
         },
     ];
