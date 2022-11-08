@@ -1,12 +1,15 @@
 <template>
-    <div class="users">
+    <div class="users w-5/6 mx-auto mt-10">
         Users
     </div>
 </template>
 
 <script>
-export default {
+import { ref } from 'vue'
+import { useState } from 'vuex'
 
+export default {
+    name: 'UsersView',
 }
 </script>
 
