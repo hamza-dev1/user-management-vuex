@@ -48,7 +48,7 @@ export default {
     const store = useStore();
     const usersState = computed(() => store.getters.getUsersState);
     const users = ref([
-        ...usersState.value.slice(0, 5)
+        ...usersState.value.users.slice(0, 5)
     ]);
     return {
         users,
