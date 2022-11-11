@@ -1,6 +1,10 @@
 <template>
-    <h1 class="text-2xl">About <span class="text-green-700 underline underline-offset-2
-">{{ user.name }}</span></h1>
+    <div class="flex justify-between px-5">
+        <h1 class="text-2xl">About <span class="text-green-700 underline underline-offset-2">{{ user.name }}</span></h1>
+        <router-link class="text-xl text-green-700 hover:text-green-900" :to="{name: 'userUpdate', params: {id: user.id}}">
+            Edit Info
+        </router-link>
+    </div>
     <div class="md:w-5/6 xl:w-1/2 mx-auto">
         <header class="flex flex-col items-center">
             <div class="w-auto">
