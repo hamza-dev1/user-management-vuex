@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import UsersView from '../views/UsersView.vue'
-import UserDetailView from '../views/UserDetailView.vue'
+import HomeView from '@/views/HomeView'
+import UsersView from '@/views/UsersView'
+import UserDetailView from '@/views/UserDetailView'
+import UserEditView from '@/views/UserEditView'
 
 const routes = [
   {
@@ -15,10 +16,15 @@ const routes = [
     component: UsersView
   },
   {
-    path: '/user/:id',
+    path: '/user/details/:id',
     name: 'userDetail',
     component: UserDetailView
-  }
+  },
+  {
+    path: '/user/edit/:id',
+    name: 'userUpdate',
+    component: UserEditView
+  },
 ]
 
 const router = createRouter({
