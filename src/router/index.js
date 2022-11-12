@@ -3,6 +3,7 @@ import HomeView from '@/views/HomeView'
 import UsersView from '@/views/UsersView'
 import UserDetailView from '@/views/UserDetailView'
 import UserEditView from '@/views/UserEditView'
+import UserAddView from '@/views/UserAddView'
 
 const routes = [
   {
@@ -14,6 +15,11 @@ const routes = [
     path: '/users',
     name: 'users',
     component: UsersView
+  },
+  {
+    path: '/user/add',
+    name: 'userAdd',
+    component: UserAddView
   },
   {
     path: '/user/details/:id',
