@@ -2,7 +2,7 @@
   
 <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
   <div class="container flex flex-wrap max-md:justify-between items-center mx-auto">
-    <a href="#" class="flex items-center md:mr-10">
+    <a href="https://github.com/hamza-dev1" target="_blank" class="flex items-center md:mr-10">
         <img src="../assets/images/logo.png" class="mr-3 h-6 sm:h-9" alt="Logo">
         <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">UsersMS</span>
     </a>
@@ -17,6 +17,9 @@
         </li>
         <li>
           <router-link to="/users" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Users</router-link>
+        </li>
+        <li>
+          <router-link to="/user/add" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Add user</router-link>
         </li>
       </ul>
     </div>
