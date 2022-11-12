@@ -5,6 +5,10 @@ export default {
         users: UsersService.getAllUsers()
     },
     mutations: {
+        ADD_USER: (state, payload) => {
+            console.log(payload);
+            state.users.push(payload);
+        },
         UPDATE_USER: (state, payload) => {
             state.users = state.users.map((user) => {
                 if (user.id == payload.id) {
@@ -16,6 +20,9 @@ export default {
         }
     },
     actions: {
+        addUser({ commit }, payload) {
+            return commit('ADD_USER', payload);
+        },
         updateUser({ commit }, payload) {
             return commit('UPDATE_USER', payload);
         }
